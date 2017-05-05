@@ -1,4 +1,4 @@
-# Phaser vs PhaserCE performance test
+# A performance test for the Phaser Game Development Framework
 
 ## Why I've created this test
 I've noticed that a Phaser-project of mine performed worse once I switched from Phaser version 2.6.2 to any PhaserCE release (CE = community edition).<br>
