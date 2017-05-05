@@ -36,6 +36,7 @@ I used the following device configurations for my tests:
 **PhaserCE version 2.7.3 & 2.7.7**
 
 | **Text objects** | **PC (FPS)** | *iPad2 (FPS)* | *Nexus 7 (FPS)* |
+| ---------------- | ------------ | ------------- | --------------- |
 | 10               | 60           | 29            | 57              |
 | 20               | 60           | 19            | 46              |
 | 50               | 60           | 10            | 20              |
