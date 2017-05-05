@@ -15,31 +15,44 @@ I used the following device configurations for my tests:
 - Google Nexus 7 (2013): Android 6.0.1 / Google Chrome 57.0.2987.132
 
 ## Results
-**Phaser version 2.6.2**<br>
-Text objects | PC (FPS) | iPad2 (FPS) | Nexus 7 (FPS)<br>
- 10          | 60       | 57          | 59<br>
- 20          | 60       | 57          | 59<br>
- 50          | 60       | 57          | 59<br>
- 100         | 60       | 56          | 59<br>
- 200         | 60       | 54          | 59<br>
- 500         | 60       | 28          | 41<br>
- 1000        | 60       | 18          | 19<br>
- 2000        | 60       | 9           | 14<br>
- 5000        | 42       | -           | 4<br>
- 10000       | 22       | -           | 2<br>
+###Phaser version 2.6.2
+{|
+| **Text objects** || **PC (FPS)** || **iPad2 (FPS)** || **Nexus 7 (FPS)**
+| 10    || 60 || 57  || 59
+|-
+| 20    || 60 || 57  || 59
+|-
+| 50    || 60 || 57  || 59
+|-
+| 100   || 60 || 56  || 59
+|-
+| 200   || 60 || 54  || 59
+|-
+| 500   || 60 || 28  || 41
+|-
+| 1000  || 60 || 18  || 19
+|-
+| 2000  || 60 || 9   || 14
+|-
+| 5000  || 42 || n/a || 4
+|
+| 10000 || 22 || n/a || 2
+|}
 
-**PhaserCE version 2.7.3 & 2.7.7**<br>
-Text objects | PC (FPS) | iPad2 (FPS) | Nexus 7 (FPS)<br>
- 10          | 60       | 29          | 57<br>
- 20          | 60       | 19          | 46<br>
- 50          | 60       | 10          | 20<br>
- 100         | 60       | 6           | 11<br>
- 200         | 60       | 3           | 6<br>
- 500         | 60       | 1           | 3<br>
- 1000        | 60       | <1          | 1<br>
- 2000        | 60       | <1          | <1<br>
- 5000        | 35       | -           | <1<br>
- 10000       | 16       | -           | <1<br>
+###PhaserCE version 2.7.3 & 2.7.7
+{|
+| **Text objects** || **PC (FPS)** || *iPad2 (FPS)* || *Nexus 7 (FPS)*
+| 10    || 60 || 29  || 57
+| 20    || 60 || 19  || 46
+| 50    || 60 || 10  || 20
+| 100   || 60 || 6   || 11
+| 200   || 60 || 3   || 6
+| 500   || 60 || 1   || 3
+| 1000  || 60 || <1  || 1
+| 2000  || 60 || <1  || <1
+| 5000  || 35 || n/a || <1
+| 10000 || 16 || n/a || <1
+|}
 
 ## Conclusion
 According to this test PhaserCE 2.7.X seems to have a serious performance issue in comparison with Phaser 2.6.2 on tablets (and mobile devices).<br>
