@@ -35,18 +35,18 @@ I used the following device configurations for my tests:
 
 **PhaserCE version 2.7.3 & 2.7.7**
 
-| **Text objects** | **PC (FPS)** | *iPad2 (FPS)* | *Nexus 7 (FPS)* |
-| ---------------- | ------------ | ------------- | --------------- |
-| 10               | 60           | 29            | 57              |
-| 20               | 60           | 19            | 46              |
-| 50               | 60           | 10            | 20              |
-| 100              | 60           | 6             | 11              |
-| 200              | 60           | 3             | 6               |
-| 500              | 60           | 1             | 3               |
-| 1000             | 60           | <1            | 1               |
-| 2000             | 60           | <1            | <1              |
-| 5000             | 35           | n/a           | <1              |
-| 10000            | 16           | n/a           | <1              |
+| **Text objects** | **PC (FPS)** | **iPad2 (FPS)** | **Nexus 7 (FPS)** |
+| ---------------- | ------------ | --------------- | ----------------- |
+| 10               | 60           | 29              | 57                |
+| 20               | 60           | 19              | 46                |
+| 50               | 60           | 10              | 20                |
+| 100              | 60           | 6               | 11                |
+| 200              | 60           | 3               | 6                 |
+| 500              | 60           | 1               | 3                 |
+| 1000             | 60           | <1              | 1                 |
+| 2000             | 60           | <1              | <1                |
+| 5000             | 35           | n/a             | <1                |
+| 10000            | 16           | n/a             | <1                |
 
 ## Conclusion
 According to this test PhaserCE 2.7.X seems to have a serious performance issue in comparison with Phaser 2.6.2 on tablets (and mobile devices).
