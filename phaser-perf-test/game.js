@@ -1,50 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Phaser Performance Test</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<style type="text/css">
-			body {
-				background-color: #000;
-				margin: 0;
-				overflow: hidden;
-				-webkit-touch-callout: none;
-				-webkit-user-select: none;
-				-khtml-user-select: none;
-				-moz-user-select: none;
-				-ms-user-select: none;
-				user-select: none;
-			}
-
-			#phaser {
-				background-color: #000;
-				left: 0;
-				position: absolute;
-				top: 0;
-			}
-
-			#phaser #stats {
-				left: 10px;
-				position: absolute;
-				top: 10px;
-			}
-
-		</style>
-	</head>
-	<body oncontextmenu="return false">
-		<div id="phaser"></div>
-		<script src="stats.min.js"></script>
-
-		<!-- REMOVE THE COMMENT FROM THE PHASER VERSION YOU WANT TO TEST -->
-		<!--script src="phaser-2.6.2.min.js"></script-->
-		<!--script src="phaser-2.7.3.min.js"></script-->
-		<!--script src="phaser-2.7.7.min.js"></script-->
-
-		<script>
-			(function() {
+(function() {
 
 				new Phaser.Game(800, 400, Phaser.AUTO, "phaser", {
 					init: init,
@@ -130,6 +84,3 @@
 				}
 
 			})();
-		</script>
-	</body>
-</html>
