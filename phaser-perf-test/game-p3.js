@@ -76,11 +76,12 @@
 
     function create() {
         // The first text object which always exists
-        this.textDebug1 = this.add.text(100, 0, "Phaser: " + Phaser.VERSION + " | Render: " + game.renderType + " | AntiAlias: " + game.antialias, { fontSize: 24, fill: "#FF0000" });
-        this.textDebug2 = this.add.text(100, 30, "Text no.: " + Math.max(1, this.number_of_text_objects), { fontSize: 24, fill: "#FFFF00" });
+        this.textDebug1 = this.add.text(100, 0, "Phaser: " + Phaser.VERSION + " | Render: " + game.renderType + " | AntiAlias: " + game.antialias, { fontFamily: 'Arial', fontSize: 24, fill: "#FF0000" });
+        this.textDebug2 = this.add.text(100, 30, "Text no.: " + Math.max(1, this.number_of_text_objects), { fontFamily: 'Arial', fontSize: 24, fill: "#FFFF00" });
+        console.log(this.add.group());
         // Additional text objects
         for (var i = 1; i < this.number_of_text_objects; i++) {
-            this.add.text(Math.random() * 400, 50 + (Math.random() * 300), "Text object #" + (i + 1), { fontSize: 18, fill: "#FFFFFF" });
+            this.add.text(Math.random() * 400, 50 + (Math.random() * 300), "Text object #" + (i + 1), { fontFamily: 'Arial', fontSize: 18, fill: "#FFFFFF" });
         }
         // Create more text by click
         var scope = this;
